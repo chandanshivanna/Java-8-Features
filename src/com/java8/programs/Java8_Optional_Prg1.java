@@ -20,7 +20,8 @@ public class Java8_Optional_Prg1 {
 		System.out.println("ofNullable on Empty Optional: " + Optional.ofNullable(answer2));
 		System.out.println("Null object " +gender.orElse("empty object"));
         System.out.println("Null object1 :"+option.orElse("empty one"));
-
+        
+        System.out.println("ofNullable on Non-Empty Optional: " + Optional.of(answer2));
 
 	}
 
