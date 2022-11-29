@@ -6,7 +6,8 @@ public class Java8_Optional {
 
 	public static void main(String[] args) {
 
-		String email = null;
+		//String email = null;
+		String email = "sumithra@gmail.com";
 		
 		//of, empty, ofNullabe
 		Optional<Object> emptyOptional = Optional.empty();
@@ -35,6 +36,7 @@ public class Java8_Optional {
 		String result = " abc ";
 		Optional<String> optionalStr = Optional.of(result);
 		optionalStr.filter(res ->res.contains("abc")).map(String::trim).ifPresent((res)->System.out.println(res));
+		
 		
 	}
 
